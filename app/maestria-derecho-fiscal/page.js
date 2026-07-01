@@ -12,8 +12,8 @@ const LOGO_URL = "https://numjvtzzfjzxquooncvv.supabase.co/storage/v1/object/pub
 
 const RAZONES = [
   { num:"01", titulo:"Planeación fiscal estratégica y compliance", desc:"Aprende a diseñar estrategias tributarias, optimizar cargas fiscales dentro del marco legal y gestionar riesgos fiscales con una visión preventiva y estratégica." },
-  { num:"02", titulo:"Defensa del contribuyente y mecanismos de conciliación", desc:"Fortalece tu capacidad para proteger jurídicamente a contribuyentes frente a actos de autoridad y resolver controversias fiscales de forma estratégica." },
-  { num:"03", titulo:"Fiscalidad internacional y comercio exterior", desc:"Desarrolla competencias para asesorar organizaciones con operaciones internacionales y comprender el impacto fiscal del comercio exterior y la movilidad global de negocios." },
+  { num:"02", titulo:"Defensa del contribuyente y litigio fiscal", desc:"Fortalece tus competencias para proteger jurídicamente a los contribuyentes mediante medios de defensa, mecanismos de conciliación y argumentación estratégica frente a actos de autoridad." },
+  { num:"03", titulo:"Fiscalidad internacional y comercio exterior", desc:"Desarrolla una visión integral para asesorar organizaciones con operaciones internacionales, comprendiendo el impacto fiscal del comercio exterior, la movilidad global y los nuevos entornos digitales." },
   { num:"04", titulo:"Flexibilidad con acompañamiento real", desc:"Estudia 100% online con clases en vivo y grabadas, organiza tu tiempo y avanza con el acompañamiento de un Coach Académico. Además, tendrás acceso a Canvas, Microsoft 365 y LINC para aprender, colaborar y recibir asesorías personalizadas desde cualquier lugar y a tu propio ritmo." },
 ];
 
@@ -55,7 +55,7 @@ const ICON_GEN = () => (
 );
 
 const HABILIDADES = [
-  { icon:<ICON_IA/>, titulo:"Diseña estrategias fiscales", desc:"Diseñar soluciones tributarias alineadas al marco legal y a los objetivos organizacionales con visión preventiva y estratégica." },
+  { icon:<ICON_IA/>, titulo:"Diseña estrategias fiscales", desc:"Diseña soluciones tributarias alineadas al marco legal para generar certeza jurídica y fortalecer la competitividad de las organizaciones." },
   { icon:<ICON_DATA/>, titulo:"Analiza y procesa datos", desc:"Analizar y procesar grandes volúmenes de datos para generar soluciones y apoyar la toma de decisiones." },
   { icon:<ICON_VISION/>, titulo:"Visión artificial y NLP", desc:"Desarrollar aplicaciones de visión artificial y procesamiento de lenguaje natural." },
   { icon:<ICON_GEN/>, titulo:"IA generativa", desc:"Implementar modelos de IA generativa y tecnologías emergentes en distintos sectores productivos." },
@@ -321,7 +321,7 @@ export default function IAPage() {
         {/* IZQUIERDA — imagen, oculta en móvil */}
         <div className="hero-img-col" style={{ position:"relative", overflow:"hidden", minHeight:"480px" }}>
           <img
-            src="https://numjvtzzfjzxquooncvv.supabase.co/storage/v1/object/public/assets/BACK.png"
+            src="https://numjvtzzfjzxquooncvv.supabase.co/storage/v1/object/public/assets/lawyer.png"
             alt="Estudiante UAG Online"
             style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center 30%", display:"block" }}
           />
@@ -333,13 +333,13 @@ export default function IAPage() {
 
           {/* Headline */}
           <h1 style={{ fontFamily:"'Outfit',sans-serif", fontSize:"clamp(1.3rem,2.2vw,2rem)", fontWeight:900, color:"#fff", lineHeight:1.12, letterSpacing:"-0.01em", marginBottom:"0.8rem" }}>
-            Domina la estrategia fiscal que impulsa el crecimiento con la{" "}
+            Domina la estrategia fiscal y protege el crecimiento de las organizaciones con la{" "}
             <span style={{ color:"#f59700" }}>Maestría en Derecho Fiscal</span>{" "}
             Online de la UAG
           </h1>
 
           <p style={{ fontSize:"0.93rem", color:"rgba(255,255,255,0.78)", lineHeight:1.6, marginBottom:"1.4rem" }}>
-            Diseña estrategias fiscales, previene riesgos tributarios y defiende jurídicamente los intereses de personas y organizaciones — sin dejar de trabajar.
+            Diseña estrategias fiscales, prevén riesgos tributarios y fortalece la defensa jurídica de personas y organizaciones con una visión estratégica y de cumplimiento, sin dejar de trabajar.
           </p>
 
           {/* Formulario Zoho */}
@@ -355,10 +355,10 @@ export default function IAPage() {
         <div className="intro-benefit-grid" style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"3rem", alignItems:"center", marginBottom:"3rem" }}>
           <div>
             <p style={{ fontFamily:"'Outfit',sans-serif", fontSize:"clamp(1.2rem,2.5vw,1.7rem)", fontWeight:800, color:"#333", lineHeight:1.3, marginBottom:"1rem" }}>
-              Diseña estrategias fiscales que generen certeza y valor.
+              Lidera la estrategia fiscal con visión jurídica y empresarial.
             </p>
             <p style={{ fontSize:"0.92rem", color:"#555", lineHeight:1.8, marginBottom:"1rem" }}>
-              Aquí no solo estudias derecho fiscal — te formas como especialista capaz de diseñar estrategias tributarias, prevenir riesgos fiscales y defender jurídicamente los intereses de personas y organizaciones, mediante la aplicación ética y estratégica del marco jurídico fiscal nacional e internacional.
+              Aquí no solo estudias Derecho Fiscal: te preparas para diseñar estrategias tributarias, prevenir riesgos fiscales y defender jurídicamente los intereses de personas y organizaciones. Con el respaldo de la UAG y Arizona State University, desarrollarás una visión integral del cumplimiento fiscal, el litigio y la fiscalidad internacional.
             </p>
           </div>
           {/* Métricas de social proof — MEJORA 5 */}
@@ -366,7 +366,7 @@ export default function IAPage() {
             {[
               { num:"100%", label:"Online: Estudia desde cualquier lugar con clases en vivo y grabadas", color:"#7a2531" },
               { num:"6", label:"Cuatrimestres: Concluye tu maestría en 2 años", color:"#f59700" },
-              { num:"5", label:"Especializaciones: Planeación fiscal, Litigio, Compliance, Fiscalidad internacional y Proyecto aplicado", color:"#7a2531" },
+              { num:"81%", label:"de alumnos trabajan mientras estudian", color:"#7a2531" },
             ].map((m,i)=>(
               <div key={i} style={{ padding:"1.2rem", background:"#f9f9f9", borderRadius:"10px", border:`2px solid ${m.color}22` }}>
                 <p style={{ fontFamily:"'Outfit',sans-serif", fontSize:"1.8rem", fontWeight:900, color:m.color, lineHeight:1, marginBottom:"0.3rem" }}>{m.num}</p>
@@ -922,13 +922,13 @@ export default function IAPage() {
                 jq.src = 'https://code.jquery.com/jquery-3.7.1.min.js';
                 jq.onload = function() {
                   var s = document.createElement('script');
-                  s.src = 'https://www.uag.mx/api/formas/forma_v2?f=o2n1ydBagK&t=uagForma&campus=VIR&nivel=LI&programa=OLL26';
+                  s.src = 'https://www.uag.mx/api/formas/forma_v2?f=LQMP7KKOcL&t=uagForma&campus=VIR&nivel=MA&programa=OMF26';
                   document.body.appendChild(s);
                 };
                 document.head.appendChild(jq);
               } else {
                 var s = document.createElement('script');
-                s.src = 'https://www.uag.mx/api/formas/forma_v2?f=o2n1ydBagK&t=uagForma&campus=VIR&nivel=LI&programa=OLL26';
+                s.src = 'https://www.uag.mx/api/formas/forma_v2?f=LQMP7KKOcL&t=uagForma&campus=VIR&nivel=MA&programa=OMF26';
                 document.body.appendChild(s);
               }
             }
