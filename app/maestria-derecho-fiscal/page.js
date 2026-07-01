@@ -63,8 +63,7 @@ const HABILIDADES = [
 
 const CAMPO = [
   "Consultoría y planeación fiscal estratégica","Litigio fiscal y defensa del contribuyente",
-  "Fiscalidad internacional, digital y constitucional","Compliance y gestión de riesgos tributarios",
-  "Asesoría fiscal corporativa","Administración tributaria pública",
+  "Fiscalidad internacional, digital y constitucional",
 ];
 
 const MODALIDAD = [
