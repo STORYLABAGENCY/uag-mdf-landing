@@ -56,9 +56,9 @@ const ICON_GEN = () => (
 
 const HABILIDADES = [
   { icon:<ICON_IA/>, titulo:"Diseña estrategias fiscales", desc:"Diseña soluciones tributarias alineadas al marco legal para generar certeza jurídica y fortalecer la competitividad de las organizaciones." },
-  { icon:<ICON_DATA/>, titulo:"Analiza y procesa datos", desc:"Analizar y procesar grandes volúmenes de datos para generar soluciones y apoyar la toma de decisiones." },
-  { icon:<ICON_VISION/>, titulo:"Visión artificial y NLP", desc:"Desarrollar aplicaciones de visión artificial y procesamiento de lenguaje natural." },
-  { icon:<ICON_GEN/>, titulo:"IA generativa", desc:"Implementar modelos de IA generativa y tecnologías emergentes en distintos sectores productivos." },
+  { icon:<ICON_DATA/>, titulo:"Implementa compliance fiscal", desc:"Fortalece la prevención, el cumplimiento tributario y la gestión de riesgos fiscales en personas físicas y morales." },
+  { icon:<ICON_VISION/>, titulo:"Defiende al contribuyente", desc:"Aplica medios de defensa y argumentación jurídica para resolver controversias fiscales y proteger los derechos de los contribuyentes." },
+  { icon:<ICON_GEN/>, titulo:"Analiza la fiscalidad internacional", desc:"Evalúa operaciones internacionales y los retos tributarios del comercio exterior y la economía digital para una mejor toma de decisiones." },
 ];
 
 const CAMPO = [
